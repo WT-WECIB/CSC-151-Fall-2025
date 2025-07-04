@@ -117,6 +117,7 @@ public static final int MAX_RETRIES = 3;
 
 Use blank lines to separate logical blocks of code.  
 Keep lines under 100 characters in length for readability.
+Incorrect spelling will result in a points deduction.
 
 ---
 
