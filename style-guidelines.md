@@ -116,8 +116,8 @@ public static final int MAX_RETRIES = 3;
 ## 8. Readability
 
 Use blank lines to separate logical blocks of code.  
-Keep lines under 100 characters in length for readability.
-Incorrect spelling will result in a points deduction. 
+Keep lines under 100 characters in length for readability.  
+Incorrect spelling will result in a points deduction.
 
 ---
 
