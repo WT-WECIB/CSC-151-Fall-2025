@@ -1,4 +1,3 @@
-
 # Java I Style Guidelines  
 
 ---
@@ -35,6 +34,8 @@ for (int i = 0; i < 10; i++) {
     sum += i;
 }
 ```
+
+All names must be spelled correctly. Misspelled names will result in point deductions.
 
 ---
 
@@ -103,12 +104,28 @@ Use `//` for short, in-line comments.
 
 ---
 
+## 6.5 Spelling and Professionalism
+
+All identifiers (class names, methods, variables, constants) must be spelled correctly.  
+Misspelled names will result in point deductions.  
+Comments must also be clear and free from spelling mistakes.  
+
+---
+
 ## 7. Constants Over Magic Numbers
 
-Never hardcode unexplained numbers. Always use a constant. Example below:
+- Use constants for fixed values except for 0, 1, 2, 100, or common formulas
+
+Example:
 
 ```java
 public static final int MAX_RETRIES = 3;
+```
+
+Bad style:
+
+```java
+int max = 3; // Should use a constant
 ```
 
 ---
@@ -117,7 +134,6 @@ public static final int MAX_RETRIES = 3;
 
 Use blank lines to separate logical blocks of code.  
 Keep lines under 100 characters in length for readability.  
-Incorrect spelling will result in a points deduction.
 
 ---
 
