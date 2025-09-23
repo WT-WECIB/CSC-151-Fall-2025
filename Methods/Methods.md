@@ -121,53 +121,6 @@ public class VariableScope {
 
 ---
 
-## Exercise 4: String Processing Methods (25 minutes)
-**Difficulty: ⭐⭐⭐⭐**
-
-Create a class called `TextAnalyzer` with several utility methods:
-
-```java
-public class TextAnalyzer {
-    
-    // 1. Create a method 'countVowels' that takes a String and returns 
-    //    the number of vowels (a, e, i, o, u - case insensitive)
-    
-    // 2. Create a method 'reverseString' that takes a String and returns it reversed
-    
-    // 3. Create a method 'isPalindrome' that takes a String and returns true 
-    //    if it reads the same forwards and backwards (ignore case and spaces)
-    
-    // 4. Create a method 'getWordCount' that takes a String and returns 
-    //    the number of words (hint: split by spaces)
-    
-    // 5. Create a method 'capitalizeWords' that takes a String and returns 
-    //    it with the first letter of each word capitalized
-    
-    public static void main(String[] args) {
-        String text1 = "Hello World";
-        String text2 = "A man a plan a canal Panama";
-        String text3 = "java programming";
-        
-        System.out.println("Vowels in '" + text1 + "': " + countVowels(text1));
-        System.out.println("Reversed '" + text1 + "': " + reverseString(text1));
-        System.out.println("Is '" + text2 + "' a palindrome? " + isPalindrome(text2));
-        System.out.println("Word count in '" + text1 + "': " + getWordCount(text1));
-        System.out.println("Capitalized '" + text3 + "': " + capitalizeWords(text3));
-    }
-}
-```
-
-**Expected Output:**
-```
-Vowels in 'Hello World': 3
-Reversed 'Hello World': dlroW olleH
-Is 'A man a plan a canal Panama' a palindrome? true
-Word count in 'Hello World': 2
-Capitalized 'java programming': Java Programming
-```
-
----
-
 ## Bonus Challenge: Random Character Generator (Extra time)
 **Difficulty: ⭐⭐⭐⭐⭐**
 
