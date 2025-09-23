@@ -2,7 +2,7 @@
 
 ---
 
-## Exercise 1: Basic Method Creation (15 minutes)
+## Exercise 1: Basic Method Creation  
 **Difficulty: ⭐**
 
 Create a class called `MathHelper` with the following methods:
@@ -38,7 +38,7 @@ The result is: 10
 
 ---
 
-## Exercise 2: Method Overloading (20 minutes)
+## Exercise 2: Method Overloading  
 **Difficulty: ⭐⭐**
 
 Create a class called `Calculator` that demonstrates method overloading:
@@ -71,7 +71,7 @@ Int and string: Hi!Hi!Hi!
 
 ---
 
-## Exercise 3: Parameter Passing and Scope (20 minutes)
+## Exercise 3: Parameter Passing and Scope  
 **Difficulty: ⭐⭐⭐**
 
 Create a class called `VariableScope` that demonstrates pass-by-value and variable scope:
