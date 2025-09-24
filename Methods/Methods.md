@@ -3,7 +3,6 @@
 ---
 
 ## Exercise 1: Basic Method Creation  
-**Difficulty: ⭐**
 
 Create a class called `MathHelper` with the following methods:
 
@@ -39,7 +38,6 @@ The result is: 10
 ---
 
 ## Exercise 2: Method Overloading  
-**Difficulty: ⭐⭐**
 
 Create a class called `Calculator` that demonstrates method overloading:
 
@@ -72,7 +70,6 @@ Int and string: Hi!Hi!Hi!
 ---
 
 ## Exercise 3: Parameter Passing and Scope  
-**Difficulty: ⭐⭐⭐**
 
 Create a class called `VariableScope` that demonstrates pass-by-value and variable scope:
 
@@ -121,8 +118,7 @@ public class VariableScope {
 
 ---
 
-## Bonus Challenge: Random Character Generator (Extra time)
-**Difficulty: ⭐⭐⭐⭐⭐**
+## Bonus Challenge: Random Character Generator (Extra time)  
 
 If you finish early, extend the RandomCharacter concept from the slides:
 
